@@ -1,0 +1,170 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+
+/* 
+font-family: 'Dancing Script', cursive;
+font-family: 'Irish Grover', cursive;
+font-family: 'Pushster', cursive;
+font-family: 'The Nautigal', cursive;
+ */
+
+
+
+body{
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../img/2.jpg");
+    /* background-position: center; */
+    background-size: cover;
+    /* position: absolute; */
+    background-repeat: no-repeat;
+}
+
+.wrap{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.box{
+    /* border: 1px solid rgb(59, 59, 61); */
+    /* margin-left: 15%; */ 
+    height: 100vh;
+ width: 50%;
+    
+}
+.p2{
+    display: none;
+}
+
+.user{
+ background: linear-gradient(rgb(167, 119, 30), rgb(66, 62, 66));
+ opacity: 0.9;
+ text-align: center;
+ margin-top: 22%;
+ width: 80%;
+ margin-left: 10%;
+ height: fit-content;
+ padding-top: 10%;
+ border-radius: 15px;
+}
+
+#demo{
+    color: rgb(235, 196, 91);
+    font-size: 50px;
+    font-weight: bolder;
+    font-family: 'The Nautigal', cursive;
+}
+
+
+/* .year::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-attachment: fixed;
+    filter: blur(8px);
+} */
+
+.box2{
+    height: 100vh;
+    width: 50%;
+    /* margin-right: 25%; */
+    /* background: linear-gradient(rgb(30, 167, 98), purple); */
+    /* opacity: 0.9; */
+}
+
+.typewriter{
+    text-align: center;
+    margin-top: 20%;
+    font-size: 80px;
+    font-family: 'Pushster', cursive;
+    letter-spacing: 8px;
+    color: rgb(245, 183, 13);
+    padding: 4%;
+}
+
+.new{
+    font-size: 30px;
+    color: aqua;
+    margin: 5px 0;
+}
+
+.wish{
+    font-size: large;
+    letter-spacing: normal;
+    background: rgb(14, 13, 13);
+    opacity: 0.7;
+    margin: 10px 0px;
+}
+
+
+.line1{
+    width: 45%;
+    border: 1px solid violet;
+    background-color: aqua;
+    margin: 1px;
+    margin-left: 25%;
+}
+
+.line2{
+    width: 45%;
+    border: 1px solid violet;
+    background-color: aqua;
+    margin: 1px;
+    margin-left: 25%;
+}
+
+.line3{
+    width: 45%;
+    border: 1px solid violet;
+    background-color: aqua;
+    margin: 1px;
+    margin-left: 25%;
+}
+
+
+
+
+.typewriter p {
+    background: rgb(14, 13, 13);
+    opacity: 0.7;
+    /* Content is not revealed 
+       until the animation */
+    overflow: hidden;
+  
+    /* Keeps the content on a single line */
+    white-space: nowrap;
+  
+    /* Gives that scrolling effect 
+       as the typing happens */
+    margin: 0 auto;
+  
+    /* Typing Effect Animation */
+    animation: typing 5s steps(30, end)
+}
+
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+    to {
+        width: 100%
+    }
+   
+}
+
+footer{
+    height: 18px;
+    /* width: 100vw; */
+    color: blanchedalmond;
+    background-color: black;
+    text-align: center;
+    margin-bottom: 0%;
+    padding: 3px;
+    font-family: 'Dancing Script', cursive;;
+}

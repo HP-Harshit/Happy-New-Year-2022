@@ -1,0 +1,154 @@
+/* Extra small devices (phones, 600px and down) */
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* Medium devices (landscape tablets, 768px and up) */
+/* Large devices (laptops/desktops, 992px and up) */
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (max-width: 1030px) {
+    #demo{
+        font-size: 35px;
+        font-weight: normal;
+        word-spacing: 5px;
+    }
+
+}
+
+
+@media (max-width: 950px) and (min-width: 700px) {
+    .typewriter{
+        font-size: 40px;
+    }
+    .new{
+        font-size: 20px;
+    }
+    .wish{
+        font-size: 16px;
+    }
+
+    .user{
+        margin-top: 25%;
+    }
+}
+
+@media (max-width: 700px) and (min-width: 600px){
+
+    .typewriter{
+        font-size: 40px;
+    }
+    .new{
+        font-size: 18px;
+    }
+    .wish{
+        font-size: 16px;
+    }
+
+    #demo{
+        font-size: 30px;
+        word-spacing: 3px;
+    }
+
+    .user{
+        margin-top: 30%;
+    }
+
+}
+
+
+@media (max-width: 600px) and (min-width: 500px){
+
+    .typewriter{
+        font-size: 30px;
+    }
+    .new{
+        font-size: 12px;
+    }
+    .wish{
+        font-size: 20px;
+        word-spacing: 3px;
+    }
+
+    #demo{
+        font-size: 30px;
+        word-spacing: 3px;
+    }
+
+    .user{
+        margin-top: 30%;
+    }
+
+
+}
+
+
+@media (max-width: 500px) and (min-width: 300px){
+
+    .typewriter{
+        font-size: 40px;
+    }
+    .p1{
+        
+        display: none;
+    }
+
+    .p2{
+        display: block;
+        letter-spacing: 15px;
+        font-weight: bold;
+        font-size: 12px;
+        
+    }
+
+    .wish{
+        font-size: 18px;
+        word-spacing: 2px;
+    }
+
+    #demo{
+        font-size: 30px;
+        word-spacing: 3px;
+    }
+
+    .user{
+        margin-top: 30%;
+    }
+
+
+}
+
+
+@media (max-width: 300px) and (min-width: 250px){
+
+    .typewriter{
+        font-size: 25px;
+    }
+    .p1{
+        
+        display: none;
+    }
+
+    .p2{
+        display: block;
+        letter-spacing: 10px;
+        font-weight: bold;
+        font-size: 12px;
+        
+    }
+
+    .wish{
+        font-size: 15px;
+        word-spacing: 2px;
+    }
+
+    #demo{
+        font-size: 25px;
+        word-spacing: 2px;
+    }
+
+    .user{
+        margin-top: 30%;
+    }
+
+
+}
+
+
+
